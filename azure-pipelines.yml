@@ -1,0 +1,9 @@
+rigger:
+- main   # Runs pipeline when code is pushed to main branch
+
+pool:
+  vmImage: 'ubuntu-latest'   # Use Microsoft-hosted agent
+
+steps:
+- script: echo "Hello, Azure DevOps Pipeline is working!"
+  displayName: 'Run a simple script'
