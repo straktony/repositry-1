@@ -1,4 +1,4 @@
-rigger:
+trigger:
 - main   # Runs pipeline when code is pushed to main branch
 
 pool:
